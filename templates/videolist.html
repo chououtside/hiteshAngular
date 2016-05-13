@@ -1,0 +1,4 @@
+  <div class="video-list media">
+    <!-- <h1>{{videoList.vids[0].snippet.title}}</h1> -->
+    <video-list-entry ng-repeat="video in videoList.vids" thumbnail="video.snippet.thumbnails.default.url" description="video.snippet.description.substring(0,120)" title="video.snippet.title"></video-list-entry>
+  </div>
